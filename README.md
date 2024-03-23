@@ -43,7 +43,7 @@
 - Before running the API server, you have to update the database configuration inside the application.properties file
 - Update the port number, username and password as per your local database configuration
 ````
-    server.port=8087
+    server.port=8081
 
     spring.datasource.url=jdbc:mysql://localhost:3306/cabwalla;
     spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
